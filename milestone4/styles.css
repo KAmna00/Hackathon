@@ -1,0 +1,88 @@
+/* Styling form and resume sections */
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f9f9f9; /* Light gray background for cleanliness */
+}
+
+form {
+    margin: auto;
+    background-color: #ffffff; /* White form background for simplicity */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Softer shadow for elegance */
+    padding: 20px;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+    color: #333333; /* Dark gray text for readability */
+}
+
+fieldset {
+    border: 2px solid #008080; /* Teal accent for borders */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f0f8ff; /* Soft blue background for fieldset */
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: #333333; /* Dark gray for consistent text color */
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #333333; /* Consistent dark gray for labels */
+}
+
+input, textarea {
+    margin-top: 4px;
+    padding: 8px;
+    width: calc(100% - 1px);
+    border: 1px solid #008080; /* Teal for input borders */
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #f9f9f9; /* Light gray input background */
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color: #008080; /* Teal background for buttons */
+    color: #ffffff; /* White text on buttons for contrast */
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Softer shadow */
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #006666; /* Darker teal on hover */
+}
+
+#resume-display {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #008080; /* Teal border for resume display */
+    border-radius: 8px;
+    background-color: #ffffff; /* White background for clarity */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Consistent soft shadow */
+    /*Making the resume editable*/
+    outline: none;
+}
+
+#resume-display h2 {
+    color: #333333; /* Dark gray for resume headings */
+}
